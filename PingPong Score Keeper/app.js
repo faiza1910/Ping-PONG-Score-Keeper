@@ -8,7 +8,7 @@ const winningScoreSelect= document.querySelector('#playto');
 
 let p1Score=0;
 let p2Score=0;
-let winningScore=5;
+let winningScore=Math.floor(Math.random()*10);;
 let isGameOver= false;
 
 p1Button.addEventListener('click', function(){
